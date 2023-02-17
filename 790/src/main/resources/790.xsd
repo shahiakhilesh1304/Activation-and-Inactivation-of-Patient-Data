@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.mphrx.com/api/_790"
+	xmlns:tns="http://www.mphrx.com/api/_790"
+	elementFormDefault="qualified">
+
+	<xsd:element name="CardNumberRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="cardNumber" type="xsd:string"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+
+
+	<xsd:element name="ActivateResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="cardNumber"
+					type="xsd:string"></xsd:element>
+				<xsd:element name="patientId" type="xsd:string"></xsd:element>
+				<xsd:element name="dateActive" type="xsd:string"></xsd:element>
+				<xsd:element name="status" type="xsd:string"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	
+	
+		
+
+
+</xsd:schema>
